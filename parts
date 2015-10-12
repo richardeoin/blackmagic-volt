@@ -9,10 +9,16 @@
 8660085 1 Q1 p channel mosfet
 1702548 1 IC2 voltage translator
 1815750 1 IC3 200mA 3.3v ldo
-1506629 1 IC4 usb esd protection
-2394077 1 IC5 MEMS Osc. 8MHz
+1506629 2 IC4, IC5 usb esd protection, also swd esd protection
 2112576 1 IC6 rail-to-rail op amp AD8655
 1839216 1 IC7 LDO adj LT1763
+2394077 1 IC8 MEMS Osc. 8MHz
+
+## Passives
+
+| Part | Description | Supplier | Quantity Required | Notes
+| ---  | ---         | ---       | ---               | ---
+
 9330844 2 R1, R2 22Ω
 9330607 1 R3 1.5kΩ
 9330399 4 R4, R5, R6, R13 10kΩ

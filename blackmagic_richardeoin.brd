@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -31,15 +31,15 @@
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
@@ -2185,9 +2185,6 @@ Please make sure your boards conform to these design rules.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -3188,21 +3185,16 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R5" pad="2"/>
 <contactref element="JTAG2" pad="1"/>
 <contactref element="R15" pad="2"/>
-<contactref element="U$41" pad="4"/>
-<contactref element="C8" pad="1"/>
 <contactref element="U$41" pad="1"/>
-<wire x1="38.125" y1="2.925" x2="39.625" y2="2.925" width="0.4" layer="1"/>
 <wire x1="40.2" y1="6.725" x2="42.275" y2="6.725" width="0.4" layer="1"/>
 <wire x1="42.275" y1="6.725" x2="42.75" y2="6.25" width="0.4" layer="1"/>
 <wire x1="42.75" y1="6.25" x2="42.75" y2="5.008" width="0.4" layer="1"/>
 <wire x1="42.75" y1="5.008" x2="42.758" y2="5" width="0.4" layer="1"/>
 <wire x1="39.625" y1="2.925" x2="40.175" y2="2.925" width="0.4" layer="1"/>
 <wire x1="40.175" y1="2.925" x2="40.75" y2="3.5" width="0.4" layer="1"/>
-<wire x1="40.75" y1="3.5" x2="40.75" y2="3.992" width="0.4" layer="1"/>
 <via x="42.75" y="4" extent="1-16" drill="0.3302"/>
 <wire x1="42.75" y1="5.008" x2="42.75" y2="4" width="0.4" layer="1"/>
 <wire x1="35.75" y1="4.25" x2="37.075" y2="2.925" width="0.4" layer="1"/>
-<wire x1="37.075" y1="2.925" x2="38.125" y2="2.925" width="0.4" layer="1"/>
 <wire x1="35.75" y1="3.008" x2="35.75" y2="4.25" width="0.4" layer="1"/>
 <wire x1="30.75" y1="3.5" x2="30.75" y2="2.625" width="0.2" layer="1"/>
 <wire x1="30.75" y1="2.625" x2="30" y2="1.875" width="0.2" layer="1"/>
@@ -3241,12 +3233,18 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="34" y1="9" x2="36.25" y2="9" width="0.2" layer="1"/>
 <wire x1="29.25" y1="12" x2="29.25" y2="13.367" width="0.2" layer="1"/>
 <wire x1="29.25" y1="13.367" x2="29.375" y2="13.492" width="0.2" layer="1"/>
+<wire x1="42.75" y1="4" x2="40.75" y2="3.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <via x="51.5" y="10.25" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="N$25">
 <via x="53.25" y="10.25" extent="1-16" drill="0.3302"/>
+</signal>
+<signal name="IC8">
+<contactref element="C8" pad="1"/>
+<contactref element="U$41" pad="4"/>
+<wire x1="38.125" y1="2.925" x2="40.75" y2="3.992" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>

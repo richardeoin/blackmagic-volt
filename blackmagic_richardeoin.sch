@@ -8258,15 +8258,6 @@ Output is 0.9V - 4.2V
 <wire x1="279.4" y1="86.36" x2="279.4" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$41" gate="A" pin="VCC"/>
-<pinref part="C8" gate="G$1" pin="P$1"/>
-<wire x1="2.54" y1="104.14" x2="2.54" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="U$44" gate="G$1" pin="3.3V"/>
-<wire x1="2.54" y1="109.22" x2="2.54" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="104.14" x2="10.16" y2="104.14" width="0.1524" layer="91"/>
-<junction x="2.54" y="104.14"/>
-</segment>
-<segment>
 <pinref part="U$41" gate="A" pin="OE"/>
 <pinref part="U$42" gate="G$1" pin="3.3V"/>
 <wire x1="30.48" y1="104.14" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
@@ -8670,6 +8661,17 @@ Output is 0.9V - 4.2V
 <segment>
 <pinref part="U$41" gate="A" pin="OUT"/>
 <pinref part="R21" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="IC8" class="0">
+<segment>
+<pinref part="U$41" gate="A" pin="VCC"/>
+<pinref part="C8" gate="G$1" pin="P$1"/>
+<wire x1="2.54" y1="104.14" x2="2.54" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="U$44" gate="G$1" pin="3.3V"/>
+<wire x1="2.54" y1="109.22" x2="2.54" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="104.14" x2="10.16" y2="104.14" width="0.1524" layer="91"/>
+<junction x="2.54" y="104.14"/>
 </segment>
 </net>
 </nets>
