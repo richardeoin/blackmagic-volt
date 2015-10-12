@@ -18,7 +18,6 @@
 
 | Part | Description | Supplier | Quantity Required | Notes
 | ---  | ---         | ---       | ---               | ---
-
 |MC0063W0603122R|MULTICOMP - Surface Mount Chip Resistor, Thick Film, MC Series, 22 ohm, 63 mW, Â± 1%, 50 V, 0603 [1608 Metric]|[9330844](http://uk.farnell.com/webapp/wcs/stores/servlet/Search?st=9330844)|2|R1, R2 22Ω
 |MC0063W060311K5|MULTICOMP - Surface Mount Chip Resistor, Thick Film, MC Series, 1.5 kohm, 63 mW, Â± 1%, 50 V, 0603 [1608 Metric]|[9330607](http://uk.farnell.com/webapp/wcs/stores/servlet/Search?st=9330607)|1|R3 1.5kΩ
 |MC0063W0603110K|MULTICOMP - Surface Mount Chip Resistor, Thick Film, MC Series, 10 kohm, 63 mW, Â± 1%, 50 V, 0603 [1608 Metric]|[9330399](http://uk.farnell.com/webapp/wcs/stores/servlet/Search?st=9330399)|4|R4, R5, R6, R13 10kΩ
