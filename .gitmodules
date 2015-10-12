@@ -1,0 +1,3 @@
+[submodule "partslist"]
+	path = partslist
+	url = https://github.com/richardeoin/parts

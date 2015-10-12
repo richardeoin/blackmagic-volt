@@ -1,0 +1,32 @@
+# Parts List
+
+| Part | Description | Supplier | Quantity Required | Notes
+| ---  | ---         | ---       | ---               | ---
+1606327 1 IC1 mcu, cortex m3
+1865279 2 JTAG1, JTAG2 arm swd connector 1.27mm
+2313554 1 CN1 usb mini b
+1333654 1 BTN1 spst tactile switch
+8660085 1 Q1 p channel mosfet
+1702548 1 IC2 voltage translator
+1815750 1 IC3 200mA 3.3v ldo
+1506629 1 IC4 usb esd protection
+2394077 1 IC5 MEMS Osc. 8MHz
+2112576 1 IC6 rail-to-rail op amp AD8655
+1839216 1 IC7 LDO adj LT1763
+9330844 2 R1, R2 22Ω
+9330607 1 R3 1.5kΩ
+9330399 4 R4, R5, R6, R13 10kΩ
+9331247 2 R7, R8 4.7kΩ
+9331131 4 R9, R10, R11, R12 390Ω
+2099223 1 D1 green led
+2099221 1 D2 red led
+2099227 2 D3, D4 yellow led
+1759399 2 C1, C2 1µF
+1759122 4 C3, C4, C5, C6 100nF
+
+
+## Useful items
+
+| Part | Description | Supplier | Quantity Required | Notes
+| ---  | ---         | ---       | ---               | ---
+1667659 Ribbon 10way 1.27mm
