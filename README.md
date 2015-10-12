@@ -11,4 +11,4 @@ Blackmagic Volt
 
 ## License
 
-* [License](License.md)
+* [License](LICENSE.md)
