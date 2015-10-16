@@ -4,7 +4,7 @@
 | ---  | ---         | ---       | ---               | ---
 1606327 1 IC1 mcu, cortex m3
 1865279 2 JTAG1, JTAG2 arm swd connector 1.27mm
-2313554 1 CN1 usb mini b
+2112367 1 CN1 usb mini b. Note alignment pins on bottom are needed for hand placement
 1333654 1 BTN1 spst tactile switch
 8660085 1 Q1 p channel mosfet
 1702548 1 IC2 voltage translator
@@ -18,16 +18,19 @@
 
 | Part | Description | Supplier | Quantity Required | Notes
 | ---  | ---         | ---       | ---               | ---
-9330844 2 R1, R2 22Ω
-9330607 1 R3 1.5kΩ
-9330399 4 R4, R5, R6, R13 10kΩ
-9331247 2 R7, R8 4.7kΩ
-9331131 4 R9, R10, R11, R12 390Ω
-2099223 1 D1 green led
-2099221 1 D2 red led
-2099227 2 D3, D4 yellow led
-1759399 2 C1, C2 1µF
-1759122 4 C3, C4, C5, C6 100nF
+1357998  3 R1, R2, R3 22Ω
+1358047  1 R4 1.5kΩ
+1358060  2 R5, R6 4.7kΩ
+1358069 10 R7, R8, R9, R10, R11, R12, R13, R14, R15, R16 10kΩ
+1358073  1 R17 15kΩ
+1358032  4 R18, R19, R20, R21 390Ω
+2099223  1 D1 green led
+2099221  1 D2 red led
+2099227  2 D3, D4 yellow led
+2218855  2 C1, C2, C3, C4 1µF
+8819734  1 C5 10nF
+1759380  6 C6, C7, C8, C9, C10, C11 100nF
+1833804  1 C12 10µF 0603
 
 
 ## Useful items
